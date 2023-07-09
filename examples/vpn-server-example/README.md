@@ -1,6 +1,6 @@
-# Terraform module | AzureRM - Invullen
+# Terraform module | AzureRM - VPN Server Configuration
 
-This Terraform module is designed to create a Invullen for Azure.
+This Terraform module is designed to create a VPN Server Configuration for Azure.
 
 ## Pre-requisites
 
@@ -9,7 +9,7 @@ Using the modules requires the following pre-requisites:
 
 ## Usage
 
-`Invullen`
+`VPN Server Configuration`
 
 ```hcl
 
