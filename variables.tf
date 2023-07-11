@@ -43,3 +43,15 @@ variable "tenant_id" {
   description = "The tenant ID for Azure AD authentication."
   default     = null
 }
+
+variable "client_root_certificate_name" {
+  type        = string
+  description = "The name of the client root certificate."
+  default     = null
+}
+
+variable "public_cert_data" {
+  type        = string
+  description = "The public certificate data."
+  default     = null
+}

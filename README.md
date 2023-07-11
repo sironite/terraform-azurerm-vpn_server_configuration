@@ -48,7 +48,9 @@ No modules.
 | resource\_group\_name | The name of the resource group in which to create the VPN server configuration. | `string` | yes |
 | vpn\_server\_configuration\_name | The name of the VPN server configuration. | `string` | yes |
 | audience | The audience for Azure AD authentication. | `string` | no |
+| client\_root\_certificate\_name | The name of the client root certificate. | `string` | no |
 | issuer | The issuer for Azure AD authentication. | `string` | no |
+| public\_cert\_data | The public certificate data. | `string` | no |
 | tenant\_id | The tenant ID for Azure AD authentication. | `string` | no |
 | vpn\_authentication\_types | The type of VPN authentication to use. | `list(string)` | no |
 | vpn\_protocols | The VPN protocols to use. | `list(string)` | no |
